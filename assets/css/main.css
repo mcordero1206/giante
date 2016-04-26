@@ -1588,7 +1588,7 @@ div > h2 {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #0099CC !important;
 		}
 
 	strong, b {
@@ -1604,9 +1604,16 @@ div > h2 {
 		margin: 0 0 2.25em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2,h4, h5, h6 {
 		color: #777;
 		font-weight: 700;
+		line-height: 1em;
+		margin: 0 0 0.5625em 0;
+	}
+	h3 {
+		color: #0099CC;
+    	font-size: 3.5em;
+    	font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
 	}
@@ -1803,7 +1810,7 @@ div > h2 {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #0099CC;
 		}
 
 	.select-wrapper {
@@ -2510,7 +2517,7 @@ div > h2 {
 			}
 
 			#header > header p {
-				color: #d1f1e9;
+				color: #ffffff;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
